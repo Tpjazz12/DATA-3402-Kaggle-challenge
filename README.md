@@ -67,7 +67,7 @@ Both the Gradient Boosting Regressor and Random Forest Regressor models provide 
 
 ### Overview of files in repository
 
-EDA.ipynb: Explore Dataset contains "Quarterback Passer Rating Over the Years" graph also "Correlation Heatmap for QB Performance Metrics"
+EDA.ipynb: Explore Dataset contains "Quarterback Passer Rating Over the Years" graph also "Correlation Heatmap for QB Performance Metrics", Explain about the feature engineer I choose for trainning and testing.
 Gradiant-Boosting-Regressor.ipynb: Trains and evaluates the Gradient Boosting Regressor model
 Linear-Regression-QB-Performance.ipynb: Trains and evaluates the Linear Regression model
 Random-Forest-Regressor-QB-Performance.ipynb: Trains and evaluates the Random Forest Regressor model
