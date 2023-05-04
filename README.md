@@ -1,3 +1,4 @@
+![](UTA-DataScience-Logo.png)
 # NFL Quarterback Performance Prediction
 
 This repository contains an analysis of NFL quarterback performance and uses machine learning models to predict passer ratings.
