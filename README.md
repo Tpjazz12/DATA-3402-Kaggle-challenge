@@ -1,4 +1,3 @@
-![](UTA-DataScience-Logo.png)
 # NFL Quarterback Performance Prediction
 
 This repository contains an analysis of NFL quarterback performance and uses machine learning models to predict passer ratings.
@@ -33,6 +32,20 @@ The goal of this project is to predict the passer rating of NFL quarterbacks bas
 * Output: Passer rating
 * Models: Linear Regression, Random Forest Regressor, Gradient Boosting Regressor
 * Loss, Optimizer, other Hyperparameters: Model-specific (e.g., number of estimators for Random Forest)
+
+### Training
+
+* Trained models using Python and scikit-learn
+* Trained/tested models using an 80%/20% train/test split
+* Compared models based on Mean Squared Error and R-squared score
+
+### Performance Comparison
+
+| Model                    | Mean Squared Error | Root Mean Squared Error | R-squared |
+|--------------------------|--------------------|-------------------------|-----------|
+| Linear Regression        | 167.76             | 12.95                   | 0.90      |
+| Random Forest Regressor  | 90.96              | 9.54                    | 0.95      |
+| Gradient Boosting        | 91.75              | 9.58                    | 0.95      |
 
 
 
