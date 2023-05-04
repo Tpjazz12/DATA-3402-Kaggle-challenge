@@ -10,10 +10,29 @@ The goal of this project is to predict the passer rating of NFL quarterbacks bas
 
 ### Data:
 
-* Data:
-  * Type: Tabular data containing NFL quarterback statistics
-  * Input: CSV file of features, output: passer rating
-  * Size: 8525 data points
-  * Instances (Train, Test, Validation Split): 80% for training, 20% for testing
+ * Type: Tabular data containing NFL quarterback statistics
+ * Input: CSV file of features, output: passer rating
+ * Size: 8525 data points
+ * Instances (Train, Test, Validation Split): 80% for training, 20% for testing
+
+### Preprocessing / Clean up:
+
+* Removed unnecessary columns
+* Replaced missing values with the mean value of the column
+* Grouped data by player and calculated summary statistics
+
+### Data Visualization
+
+* Explored the distribution of passer ratings
+* Examined the relationships between features and the target variable (passer rating)
+
+### Problem Formulation
+
+* Input: Summary statistics of quarterback performance (e.g., completion percentage, yards per attempt, etc.)
+* Output: Passer rating
+* Models: Linear Regression, Random Forest Regressor, Gradient Boosting Regressor
+* Loss, Optimizer, other Hyperparameters: Model-specific (e.g., number of estimators for Random Forest)
+
+
 
 
