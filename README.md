@@ -47,6 +47,28 @@ The goal of this project is to predict the passer rating of NFL quarterbacks bas
 | Random Forest Regressor  | 90.96              | 9.54                    | 0.95      |
 | Gradient Boosting        | 91.75              | 9.58                    | 0.95      |
 
+### Conclusions
 
+Both the Gradient Boosting Regressor and Random Forest Regressor models provide strong predictions of NFL quarterback passer ratings, with Random Forest Regressor having a marginally lower error rate. However, the choice between these two models could depend on additional factors, such as the trade-off between model complexity and interpretability, or the time it takes to train and make predictions.
+
+### Future Work
+
+* Experiment with additional features, such as player-specific and team-specific variables
+* Explore other machine learning models and techniques, such as neural networks or feature selection methods
+* Investigate the impact of different hyperparameter settings on model performance
+
+## How to reproduce results
+
+1. Clone the repository
+2. Install required Python packages
+3. Download and preprocess the data
+4. Train the models and evaluate their performance
+5. Compare the results and draw conclusions
+
+### Overview of files in repository
+
+EDA.ipynb: Explore Dataset contains "Quarterback Passer Rating Over the Years" graph also "Correlation Heatmap for QB Performance Metrics"
+
+Gradiant-Boosting-Regressor.ipynb: Trains and evaluates the Gradient Boosting Regressor model
 
 
