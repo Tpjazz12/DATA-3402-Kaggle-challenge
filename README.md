@@ -10,10 +10,10 @@ The goal of this project is to predict the passer rating of NFL quarterbacks bas
 
 ### Data:
 
-*Data:
-  *Type: Tabular data containing NFL quarterback statistics
-  *Input: CSV file of features, output: passer rating
-  *Size: 8525 data points
-  *Instances (Train, Test, Validation Split): 80% for training, 20% for testing
+* Data:
+  * Type: Tabular data containing NFL quarterback statistics
+  * Input: CSV file of features, output: passer rating
+  * Size: 8525 data points
+  * Instances (Train, Test, Validation Split): 80% for training, 20% for testing
 
 
