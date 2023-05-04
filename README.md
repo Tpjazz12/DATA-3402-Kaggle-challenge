@@ -68,7 +68,32 @@ Both the Gradient Boosting Regressor and Random Forest Regressor models provide 
 ### Overview of files in repository
 
 EDA.ipynb: Explore Dataset contains "Quarterback Passer Rating Over the Years" graph also "Correlation Heatmap for QB Performance Metrics"
-
 Gradiant-Boosting-Regressor.ipynb: Trains and evaluates the Gradient Boosting Regressor model
+Linear-Regression-QB-Performance.ipynb: Trains and evaluates the Linear Regression model
+Random-Forest-Regressor-QB-Performance.ipynb: Trains and evaluates the Random Forest Regressor model
+
+### Software Setup
+
+* Python 3.7 or later
+* Install required packages: pandas, numpy, matplotlib, seaborn, scikit-learn
+
+### Data
+
+Download the NFL quarterback performance data from Kaggle in NFL Statistics file
+
+### Training
+
+* Follow the instructions in the respective notebooks (Gradiant-Boosting-Regressor.ipynb, Linear-Regression-QB-Performance.ipynb, Random-Forest-Regressor-QB-Performance.ipynb) to train the models
+* Adjust the hyperparameters as needed to optimize the model performance
+
+### Performance Evaluation
+
+Run all the notebook to compare the performance of the different models
+Analyze the results and draw conclusions based on the performance metrics (Mean Squared Error, Root Mean Squared Error, R-squared)
+
+## Citations
+* NFL Statistics: https://www.nfl.com/
+* Kaggle challenge: https://www.kaggle.com/datasets/kendallgillies/nflstatistics?select=Career_Stats_Passing.csv
+
 
 
