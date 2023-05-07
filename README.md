@@ -22,9 +22,11 @@ The goal of this project is to predict the passer rating of NFL quarterbacks bas
 * Grouped data by player and calculated summary statistics
 
 ### Data Visualization
-
+* Create new Feature Engineering that potentially improve the models
+![image](https://user-images.githubusercontent.com/111667888/236652066-b0eec2eb-7005-450c-811c-5962dc7b2658.png)
 * Explored the distribution of passer ratings
 * Examined the relationships between features and the target variable (passer rating)
+![image](https://user-images.githubusercontent.com/111667888/236652074-71d12918-2e2d-4234-b710-4c33f94f2c85.png)
 
 ### Problem Formulation
 
@@ -68,6 +70,9 @@ Both the Gradient Boosting Regressor and Random Forest Regressor models provide 
 ### Overview of files in repository
 
 * EDA.ipynb: Explore Dataset contains "Quarterback Passer Rating Over the Years" graph also "Correlation Heatmap for QB Performance Metrics", Explain about the feature engineer I choose for trainning and testing.
+![image](https://user-images.githubusercontent.com/111667888/236651929-3c1c8e43-5874-4029-856b-016be6e037fb.png)
+
+
 * Gradiant-Boosting-Regressor.ipynb: Trains and evaluates the Gradient Boosting Regressor model
 * Linear-Regression-QB-Performance.ipynb: Trains and evaluates the Linear Regression model
 * Random-Forest-Regressor-QB-Performance.ipynb: Trains and evaluates the Random Forest Regressor model
